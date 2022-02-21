@@ -1,0 +1,8 @@
+{
+  "name": "rubic-sdk-test-envinroment",
+  "version": "1.0.0",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "hardhat": "^2.8.2"
+  }
+}
