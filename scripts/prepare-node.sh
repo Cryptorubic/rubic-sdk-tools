@@ -1,4 +1,4 @@
-npx hardhat node &> hardhat.log &
+npx hardhat node --show-stack-traces &> hardhat.log &
 last_pid=$!
 
 while ! ( grep -q 'Account #19:' ./hardhat.log )
