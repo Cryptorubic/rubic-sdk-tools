@@ -1,3 +1,5 @@
+#!/bin/sh
+
 npx hardhat node --show-stack-traces &> hardhat.log &
 last_pid=$!
 

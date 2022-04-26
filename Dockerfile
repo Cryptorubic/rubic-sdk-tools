@@ -1,4 +1,4 @@
-FROM node:14.19.0-alpine3.15
+FROM --platform=linux/amd64 node:14.19.0-alpine3.15
 
 WORKDIR /hardhat-node
 
